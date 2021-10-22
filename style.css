@@ -122,7 +122,7 @@ input::placeholder {
   transform: translateX(1em);
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   body {
     padding-bottom: 0;
     min-height: 100vh;

@@ -122,15 +122,16 @@ input::placeholder {
   transform: translateX(1em);
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1300px) {
   body {
     padding-bottom: 0;
+    min-height: 100vh;
   }
   .girl-full {
     display: block;
 
     width: 100%;
-    max-height: 100vh;
+    height: 100vh;
   }
 
   .logo {

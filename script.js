@@ -33,6 +33,7 @@ btn.onclick = function () {
     message.style.color = "Red";
     message.innerHTML = null;
     input.value = "";
+    email.style.border = "1px solid hsl(0, 93%, 68%)";
   } else {
     message.innerHTML = "Please provide a valid email.";
   }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ger-web012</title>
+    <link rel="shortcut icon" href="images/GT.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="images/logo.svg" alt="logo-circle" class="logo" />
+    <section>
+      <div class="bg">
+        <img src="images/hero-mobile.jpg" alt="girl" class="girl" />
+        <img src="images/hero-desktop.jpg" alt="girl-full" class="girl-full" />
+      </div>
+      <div class="text">
+        <h1><span>We're</span> coming soon</h1>
+        <p class="content">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <div class="email">
+          <div class="textbox">
+            <div class="flex-button">
+              <div>
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  class="address"
+                  required
+                  pattern=".+@globex\.com"
+                />
+              </div>
+              <div>
+                <img src="images/icon-error.svg" alt="error" class="error" />
+              </div>
+            </div>
+          </div>
+
+          <div class="next" id="next">
+            <img src="images/icon-arrow.svg" alt="arrow" class="arrow" />
+          </div>
+        </div>
+        <p id="message"></p>
+      </div>
+    </section>
+    <img
+      src="images/bg-pattern-desktop.svg"
+      alt="bg-patter"
+      class="bg-pattern"
+    />
+    <script src="script.js"></script>
+  </body>
+</html>

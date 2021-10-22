@@ -36,6 +36,7 @@ btn.onclick = function () {
     email.style.border = "1px solid hsl(0, 93%, 68%)";
   } else {
     message.innerHTML = "Please provide a valid email.";
+    email.style.border = "2px solid hsl(0, 93%, 68%)";
   }
 };
 
